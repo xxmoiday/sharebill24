@@ -28,7 +28,7 @@ export default function Landing() {
           </Link>
         </div>
         <Link href="/dashboard" className="mt-4">
-          <Button size="lg" variant="ghost" className="text-white/80 hover:text-white hover:bg-white/10">
+          <Button size="lg" variant="outline" className="text-white border-white/40 hover:bg-white/10 hover:border-white/60">
             Sử dụng không cần tài khoản
           </Button>
         </Link>
