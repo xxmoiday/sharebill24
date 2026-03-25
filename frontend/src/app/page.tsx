@@ -15,18 +15,23 @@ export default function Landing() {
           <br />
           Không để những khoản tính cản trở vibe của nhóm bạn
         </p>
-        <div className="flex gap-4 mt-8">
+        <div className="flex flex-col sm:flex-row gap-3 mt-8">
           <Link href="/register">
-            <Button size="lg" variant="secondary" className="w-full">
+            <Button size="lg" variant="secondary" className="w-full sm:w-auto">
               Đăng ký
             </Button>
           </Link>
           <Link href="/login">
-            <Button size="lg" className="w-full bg-white text-orange-500 hover:bg-orange-50">
+            <Button size="lg" className="w-full sm:w-auto bg-white text-orange-500 hover:bg-orange-50">
               Đăng nhập
             </Button>
           </Link>
         </div>
+        <Link href="/dashboard" className="mt-4">
+          <Button size="lg" variant="ghost" className="text-white/80 hover:text-white hover:bg-white/10">
+            Sử dụng không cần tài khoản
+          </Button>
+        </Link>
       </div>
     </main>
   );
